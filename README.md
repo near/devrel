@@ -17,7 +17,9 @@ Tasks
 2. Edit notes to update on task progress
 3. Move through board as progress is made
 
-Minimal Process Goals:
+## Notes
+
+Minimal Process Goals
 
 1. Work in public 
 2. Self document
