@@ -8,7 +8,7 @@ assignees: crasskitty
 
 ---
 
-# Proposal for: [insert what you are proposing should be worked on in 10 words or fewer]
+# Proposal for: [less than 10 words describing the work to be done]
 
 ## What is this? 
 - 
