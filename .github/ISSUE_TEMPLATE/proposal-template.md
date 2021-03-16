@@ -16,7 +16,8 @@ assignees: crasskitty
 ## Who needs to be involved?
 -
 
-## How will we know this is done? (Definition of Done)
+## Tasks to complete
+[ ] - 
 -
 
 ## What t-shirt size is this?
