@@ -1,21 +1,20 @@
-name: Auto Assign to Project(s)
+name: assign to devrel board
 
 on:
   issues:
-    types: [opened, labeled]
-  pull_request:
-    types: [opened, labeled]
+    types: [opened]
+
 env:
-  GITHUB_TOKEN: ${{ github.MY_GITHUB_TOKEN }}
+  GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
 jobs:
   assign_one_project:
     runs-on: ubuntu-latest
-
-- name: Assign issues and pull requests with `proposals` label to project 9
-     uses: srggrs/assign-one-project-github-action@1.2.1
-if: |        contains(github.event.issue.labels.*.name, 'proposals') ||
-       contains(github.event.pull_request.labels.*.name, 'proposals')
-     with:
-       project: 'https://github.com/orgs/near/projects/9'
-        column_name: 'Proposals'
+    name: Assign to Proposals
+    steps:
+    - name: Put new issues and pull requests into proposals
+      uses: srggrs/assign-one-project-github-action@1.2.0
+      if: github.event.action == 'opened'
+      with:
+        project: 'https://github.com/orgs/near/projects/9'
+        column_name: 'proposals'
