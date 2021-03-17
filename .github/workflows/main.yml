@@ -18,6 +18,7 @@ jobs:
       if: github.event.action == 'opened'
       with:
         project: 'https://github.com/orgs/near/projects/9'
+        column_name: 'Proposals'
 
     - name: Assign issues and pull requests with `proposals` label to project 9
       uses: srggrs/assign-one-project-github-action@1.2.1
