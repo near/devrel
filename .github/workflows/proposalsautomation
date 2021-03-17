@@ -1,0 +1,20 @@
+name: assign to devrel board
+
+on:
+  issues:
+    types: [opened]
+  
+env:
+  GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+jobs:
+  assign_one_project:
+    runs-on: ubuntu-latest
+    name: Assign to Proposals
+    steps:
+    - name: Put new issues and pull requests into proposals
+      uses: srggrs/assign-one-project-github-action@1.2.0
+      if: github.event.action == 'opened'
+      with:
+        project: 'https://github.com/orgs/near/projects/9'
+        column_name: 'proposals'
