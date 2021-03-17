@@ -1,0 +1,21 @@
+name: Auto Assign to Dev Rel Project(s)
+
+on:
+  issues:
+    types: [opened, labeled]
+ 
+env:
+  GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+jobs:
+  assign_one_project: 
+    runs-on: ubuntu-latest
+    name: Assign to One Project
+    steps:
+    - name: Assign NEW issues to porject 9
+      uses: srggrs/assign-one-project-github-action@1.2.1
+      if: |
+        contains(github.event.issue.labels.*.name, 'proposal') ||
+      with:
+        project: 'https://github.com/orgs/near/projects/9'
+        column_name: 'Proposals'
