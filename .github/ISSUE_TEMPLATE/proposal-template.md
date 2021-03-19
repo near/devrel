@@ -16,19 +16,15 @@ assignees: crasskitty
 ## Who needs to be involved?
 -
 
-## Tasks to complete
-- [ ]
-- [ ]
+## Tasks to complete (can return to [x] these)
+- [ ] todo 
+- [ ] todo 2
 
-## What t-shirt size is this?
-- [ ] x-large 
-- [ ] large 
-- [ ] medium
-- [ ] small 
-- [ ] x-small 
+## What t-shirt size is this? (range: multi-spint to 1 hour)
+(x-large, large, medium, small, x-small)
 
-## What priority is this?
-- [ ] P0 (EMERGENCY: drop everything to put out the fire)
-- [ ] P1 (Critical: docs, bugs, or features that block work or dev/app success)
-- [ ] P2 (Important: known docs, feature requests, or known bugs)
-- [ ] P3 (Nice-to-have: docs or features that improve a flow)
+## What priority is this? (remove what doesn't apply)
+- P0 (EMERGENCY: drop everything to put out the fire)
+- P1 (Critical: docs, bugs, or features that block work or dev/app success)
+- P2 (Important: known docs, feature requests, or known bugs)
+- P3 (Nice-to-have: docs or features that improve a flow)
