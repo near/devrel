@@ -17,8 +17,8 @@ assignees: crasskitty
 -
 
 ## Tasks to complete
-[ ] - 
--
+- [ ]
+- [ ]
 
 ## What t-shirt size is this?
 - [ ] x-large 
