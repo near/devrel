@@ -4,7 +4,7 @@ about: This is a template for incoming proposals to help the DevRel team manage 
   planning through async planning and communication.
 title: "[EPIC or TASK] insert name of epic or task"
 labels: proposal
-assignees: crasskitty
+assignees: ''
 
 ---
 
