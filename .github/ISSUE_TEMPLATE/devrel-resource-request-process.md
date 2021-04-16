@@ -1,6 +1,6 @@
 ---
 name: DevRel Resource Request Process
-about: Thsi is for teams outside of Devrel to request time of DevRel resources.
+about: This is for teams outside of Devrel to request time of DevRel resources.
 title: "[DEVREL RESOURCE REQUEST] "
 labels: proposal, resource request
 assignees: potatodepaulo, crasskitty
