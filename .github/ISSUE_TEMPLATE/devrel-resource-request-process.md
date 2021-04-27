@@ -3,7 +3,7 @@ name: DevRel Resource Request Process
 about: This is for teams outside of Devrel to request time of DevRel resources.
 title: "[DEVREL RESOURCE REQUEST] "
 labels: proposal, resource request
-assignees: potatodepaulo, crasskitty
+assignees: crasskitty, potatodepaulo
 
 ---
 
@@ -14,6 +14,9 @@ assignees: potatodepaulo, crasskitty
 
 ## Who needs to be involved?
 -
+
+## When do you need this work completed by?
+- 
 
 ## Tasks to complete (can return to [x] these)
 - [ ] todo 
