@@ -2,7 +2,7 @@
 Developer Relations @NEARProtocol
 
 # Kanban Board
-https://github.com/near/devrel/projects/1
+https://github.com/orgs/near/projects/14
 
 Epics (composed of many tasks)
 
