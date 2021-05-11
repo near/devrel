@@ -2,7 +2,7 @@
 name: Proposal Template
 about: This is a template for incoming proposals to help the DevRel team manage sprint
   planning through async planning and communication.
-title: "[REQ] ~TITLE GOES HERE~"
+title: "[EPIC or TASK] ~TITLE GOES HERE~"
 labels: proposal
 assignees: ''
 
@@ -18,7 +18,7 @@ assignees: ''
 - [ ] todo 1... 
 - [ ] 2...
 
-## What is the scope of this? (range: x-small is 1 hour, x-large is over a month of work)
+## What is the t-shirt size of this? (range: x-small is 1 hour, x-large is over a month of work)
 - [ ] x-small
 - [ ] small
 - [ ] medium
